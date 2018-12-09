@@ -1,0 +1,1 @@
+worker: python ScienceHelperBot3.py
