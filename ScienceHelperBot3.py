@@ -211,8 +211,7 @@ def FindPlagiatTelegramm(S, TopCount):
 
 
 def ScienceHelperBot():
-    #TOKEN = os.environ['TOKEN']
-    TOKEN = '684542507:AAE0eb0rX6yRNfRyc65O8viOJ4OZLgTogmk'
+    TOKEN = os.environ['TOKEN']
     updater = Updater(token=TOKEN)  # Токен API к Telegram
     dispatcher = updater.dispatcher
 
